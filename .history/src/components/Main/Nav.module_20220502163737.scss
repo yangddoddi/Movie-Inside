@@ -1,0 +1,26 @@
+@import url(../../scss/global.scss);
+
+.nav {
+    display: flex;
+    background-color: rgba(255,255,255,1);
+    font-family: 'Noto Sans CJK KR';
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+.navItems {
+    display: flex;
+    list-style: none;
+    color: rgba(0,0,0,0.9)
+    font-size: 20px;
+}
+
+
+.navItem {
+    padding: 10px;
+}

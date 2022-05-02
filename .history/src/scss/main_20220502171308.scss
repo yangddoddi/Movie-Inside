@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: light;
+    src: url('../fontStyle/NotoSansKR-Light.woff')
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fontStyle/NotoSansKR-Regular.woff')
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: semi-bold;
+    src: url('../fontStyle/NotoSansKR-Medium.woff')
+}
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fontStyle/NotoSansKR-Bold.woff')
+}
+
+
+* {
+    box-sizing: border-box;
+}
+

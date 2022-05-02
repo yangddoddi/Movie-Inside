@@ -1,0 +1,19 @@
+
+.nav {
+    display: flex;
+    background-color: rgb(41 48 57);
+}
+
+.logo {
+    width: 150px;
+}
+
+.navItems {
+    display: flex;
+    list-style: none;
+}
+
+
+.navItem {
+    padding: 10px;
+}
