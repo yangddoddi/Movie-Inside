@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: light;
+    src: url('../fontStyle/NotoSansKR-Light.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fontStyle/NotoSansKR-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: semi-bold;
+    src: url('../fontStyle/NotoSansKR-Medium.otf') format('otf');
+}
+@font-face {
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fontStyle/NotoSansKR-Bold.otf') format('otf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans CJK KR';
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    // -ms-overflow-style: none; /* IE and Edge */
+    // scrollbar-width: none; /* Firefox */
+
+
+// &::-webkit-scrollbar {
+//     background-color: transparent;
+// }
+/* width */
+&::-webkit-scrollbar {
+    width: 4px;
+}
+/* button */
+&::-webkit-scrollbar-button {
+    background: #222; 
+}
+/* Handle */
+&::-webkit-scrollbar-thumb {
+    background: #333; 
+}
+/* Handle on hover */
+&::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
+/* Track */
+&::-webkit-scrollbar-track {
+    background: transparent;
+}
+// /* The track NOT covered by the handle.
+// ::-webkit-scrollbar-track-piece {
+//     background: #000; 
+// }
+// /* Corner */
+// &::-webkit-scrollbar-corner {
+//     background: #999; 
+// }
+/* Resizer */
+// &::-webkit-resizer {
+//     background: #111; 
+// }
+
+}
