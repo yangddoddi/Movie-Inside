@@ -1,0 +1,27 @@
+
+.jumbotron {
+    background-image: url(../../image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,1);
+    background-color: #bdb9b9;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.jumbotronContainer {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}

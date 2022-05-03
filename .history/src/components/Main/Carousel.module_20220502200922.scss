@@ -1,0 +1,33 @@
+
+
+.carousel {
+    height: 400px;
+    background-color: #efebeb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    max-width: 1200px;
+    height: 400px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+}
+
+.cards {
+    width: 1000vw;
+    height: 250px;
+    background-color: yellow;
+}
+
+.card {}

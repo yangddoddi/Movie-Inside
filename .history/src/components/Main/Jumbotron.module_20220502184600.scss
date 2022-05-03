@@ -1,0 +1,32 @@
+
+.jumbotron {
+    background-color: #efebeb;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.jumbotronContainer {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.searchForm{
+    margin-top: 30px;
+
+    input {
+        border: none;
+        border-bottom: 2px solid rgba(255,255,255,0.2);
+        font-size: 25px;
+        background-color: transparent;
+        width: 80%;
+        height: 40px;
+    }
+}
