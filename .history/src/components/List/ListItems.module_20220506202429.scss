@@ -1,0 +1,37 @@
+
+
+.List {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ListContainer {
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.moreBtn {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 370px;
+    margin: 20px;
+    background-color: rgba(255,255,255,0.5);
+
+    img {
+        width: 100%;
+        height: 300px;
+    }
+
+}

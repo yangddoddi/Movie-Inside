@@ -1,0 +1,21 @@
+
+
+.List {
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+
+.ListContainer {
+    max-width: 1200px;
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+}
