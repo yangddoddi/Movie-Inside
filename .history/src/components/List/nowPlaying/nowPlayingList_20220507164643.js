@@ -11,6 +11,7 @@ export const NowPlayingList = () => {
   const [movieData, setMovieData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
+  const [spinner, setSpinner] = useState(true);
 
   const getData = async (page) => {
     const data = await axios.get(
@@ -27,11 +28,11 @@ export const NowPlayingList = () => {
 
   useEffect(() => {
     if (!loading) {
-      console.log(listEnd.current);
       const observerCallback = (entries) => {
         const entry = entries[0];
         if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
           setPage((prev) => prev + 1);
+          setSpinner(true);
         }
       };
       const observerOption = {
@@ -49,20 +50,19 @@ export const NowPlayingList = () => {
 
   return (
     <>
-      <ListHeader listName={"상영 중인 영화"} />
+      <ListHeader listName={"현재 상영 영화"} />
       <ListItems ref={listEnd} setPage={setPage} page={page}>
-        {!loading ? (
-          movieData.map((movie) => (
-            <ListItem
-              key={movie.id}
-              title={movie.title}
-              release={movie.release_date}
-              poster={movie.poster_path}
-            />
-          ))
-        ) : (
-          <Spinner />
-        )}
+        {!loading
+          ? movieData.map((movie) => (
+              <ListItem
+                key={movie.id}
+                title={movie.title}
+                release={movie.release_date}
+                poster={movie.poster_path}
+              />
+            ))
+          : null}
+        {spinner ? <Spinner /> : null}
       </ListItems>
     </>
   );

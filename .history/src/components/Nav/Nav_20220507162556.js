@@ -24,12 +24,8 @@ export const Nav = () => {
           <Link to="./now_playing">
             <li className={styles.navItem}>상영중</li>
           </Link>
-          <Link to="./toprating">
-            <li className={styles.navItem}>최고평점</li>
-          </Link>
-          <Link to="./upcoming">
-            <li className={styles.navItem}>개봉예정</li>
-          </Link>
+          <li className={styles.navItem}>개봉예정</li>
+          <li className={styles.navItem}>모든영화</li>
         </ul>
         <form className={styles.navForm}>
           <input type={"text"} id="searchInput" />

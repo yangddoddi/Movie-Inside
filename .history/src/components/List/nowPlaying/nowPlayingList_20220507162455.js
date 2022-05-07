@@ -14,7 +14,7 @@ export const NowPlayingList = () => {
 
   const getData = async (page) => {
     const data = await axios.get(
-      `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=ko-kr&page=${page}&region=kr`
+      `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=kr-ko&page=${page}&region=kr`
     );
     const movies = await data.data.results;
     setMovieData([...movieData, ...movies]);

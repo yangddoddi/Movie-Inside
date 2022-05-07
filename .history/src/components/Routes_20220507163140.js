@@ -3,7 +3,7 @@ import { Main } from "./Main";
 import { Detail } from "./Detail/Detail";
 import { NowPlayingList } from "./List/nowPlaying/nowPlayingList";
 import { PopularList } from "./List/popular/Popular";
-import { TopRating } from "./List/TopRating/TopRating";
+import { TopRate } from "./List/TopRate/TopRate";
 import { Upcoming } from "./List/Upcoming/Upcoming";
 
 export const RouteJS = () => {
@@ -13,8 +13,6 @@ export const RouteJS = () => {
       <Route path="/detail" element={<Detail />} />
       <Route path="/now_playing" element={<NowPlayingList />} />
       <Route path="/popular" element={<PopularList />} />
-      <Route path="/toprating" element={<TopRating />} />
-      <Route path="/upcoming" element={<Upcoming />} />
     </Routes>
   );
 };

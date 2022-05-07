@@ -5,7 +5,7 @@ import { ListItem } from "../ListItem";
 import axios from "axios";
 import { Spinner } from "../../../common/loadingSpiner";
 
-export const NowPlayingList = () => {
+export const PopularList = () => {
   const listEnd = useRef(null);
   const API_KEY = "c8bbbc721826450428abb9e5d4319003";
   const [movieData, setMovieData] = useState([]);
@@ -14,7 +14,7 @@ export const NowPlayingList = () => {
 
   const getData = async (page) => {
     const data = await axios.get(
-      `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=ko-kr&page=${page}&region=kr`
+      `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=kr-ko&page=${page}&region=kr`
     );
     const movies = await data.data.results;
     setMovieData([...movieData, ...movies]);
@@ -49,7 +49,10 @@ export const NowPlayingList = () => {
 
   return (
     <>
-      <ListHeader listName={"상영 중인 영화"} />
+      <ListHeader
+        listName={"상영 중인 영화"}
+        onChangeHandler={changeSortHandler}
+      />
       <ListItems ref={listEnd} setPage={setPage} page={page}>
         {!loading ? (
           movieData.map((movie) => (

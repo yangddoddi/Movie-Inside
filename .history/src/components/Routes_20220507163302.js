@@ -3,7 +3,7 @@ import { Main } from "./Main";
 import { Detail } from "./Detail/Detail";
 import { NowPlayingList } from "./List/nowPlaying/nowPlayingList";
 import { PopularList } from "./List/popular/Popular";
-import { TopRating } from "./List/TopRating/TopRating";
+import { TopRating } from "./List/TopRate/TopRating";
 import { Upcoming } from "./List/Upcoming/Upcoming";
 
 export const RouteJS = () => {

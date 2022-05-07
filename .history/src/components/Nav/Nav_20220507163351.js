@@ -27,7 +27,7 @@ export const Nav = () => {
           <Link to="./toprating">
             <li className={styles.navItem}>최고평점</li>
           </Link>
-          <Link to="./upcoming">
+          <Link to="./upcomingg">
             <li className={styles.navItem}>개봉예정</li>
           </Link>
         </ul>
