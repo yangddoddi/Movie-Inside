@@ -37,13 +37,10 @@ export const Nav = () => {
               <li className={styles.navItem}>개봉예정</li>
             </Link>
           </ul>
-          <BsSearch
-            className={styles.searchIcon}
-            onClick={onClickHandler}
-          ></BsSearch>
+          <BsSearch className={styles.searchIcon}></BsSearch>
         </div>
       </nav>
-      {searchBar ? <SearchBar /> : null}
+      <SearchBar />
     </>
   );
 };

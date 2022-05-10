@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../image/logo.png";
 import styles from "./Nav.module.scss";
 import { Link } from "react-router-dom";
@@ -6,10 +6,6 @@ import { BsSearch } from "react-icons/bs";
 import { SearchBar } from "./SearchBar";
 
 export const Nav = () => {
-  const [searchBar, setSearchBar] = useState(false);
-  const onClickHandler = () => {
-    setSearchBar(!searchBar);
-  };
   return (
     <>
       <nav className={styles.nav}>
@@ -37,13 +33,10 @@ export const Nav = () => {
               <li className={styles.navItem}>개봉예정</li>
             </Link>
           </ul>
-          <BsSearch
-            className={styles.searchIcon}
-            onClick={onClickHandler}
-          ></BsSearch>
+          <BsSearch className={styles.searchIcon}></BsSearch>
         </div>
       </nav>
-      {searchBar ? <SearchBar /> : null}
+      <SearchBar />
     </>
   );
 };

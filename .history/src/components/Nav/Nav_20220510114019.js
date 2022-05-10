@@ -43,7 +43,7 @@ export const Nav = () => {
           ></BsSearch>
         </div>
       </nav>
-      {searchBar ? <SearchBar /> : null}
+      <SearchBar />
     </>
   );
 };

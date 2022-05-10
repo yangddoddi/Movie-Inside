@@ -16,7 +16,7 @@ export const RouteJS = () => {
       <Route path="/popular" element={<PopularList />} />
       <Route path="/toprating" element={<TopRating />} />
       <Route path="/upcoming" element={<Upcoming />} />
-      <Route path="/search/:search" element={<SearchList />} />
+      <Route path="/search/:param" element={<SearchList />} />
     </Routes>
   );
 };
