@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Movie-Inside/static/css/main.969aca9b.css",
+    "main.js": "/Movie-Inside/static/js/main.6a9a95f6.js",
+    "static/js/787.9c24904b.chunk.js": "/Movie-Inside/static/js/787.9c24904b.chunk.js",
+    "static/media/background.jpg": "/Movie-Inside/static/media/background.bebd827cb0d5732cf64b.jpg",
+    "static/media/NotoSansKR-Light.otf": "/Movie-Inside/static/media/NotoSansKR-Light.7d4ce2f6f92cffc70600.otf",
+    "static/media/NotoSansKR-Bold.otf": "/Movie-Inside/static/media/NotoSansKR-Bold.bbb4ca5df6c6540f4af8.otf",
+    "static/media/NotoSansKR-Regular.otf": "/Movie-Inside/static/media/NotoSansKR-Regular.bf54b090356010039bab.otf",
+    "static/media/NotoSansKR-Medium.otf": "/Movie-Inside/static/media/NotoSansKR-Medium.7def03a7e5e60c5e0704.otf",
+    "static/media/logo.png": "/Movie-Inside/static/media/logo.33103837241be7f163e4.png",
+    "index.html": "/Movie-Inside/index.html",
+    "main.969aca9b.css.map": "/Movie-Inside/static/css/main.969aca9b.css.map",
+    "main.6a9a95f6.js.map": "/Movie-Inside/static/js/main.6a9a95f6.js.map",
+    "787.9c24904b.chunk.js.map": "/Movie-Inside/static/js/787.9c24904b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.969aca9b.css",
+    "static/js/main.6a9a95f6.js"
+  ]
+}
