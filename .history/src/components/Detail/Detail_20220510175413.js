@@ -62,7 +62,7 @@ export const Detail = () => {
         <div className={styled.rightArea}>
           <div className={styled.rightContainer}>
             <button onClick={goBackHandler} className={styled.goBackBtn}>
-              <BsFillArrowLeftCircleFill />
+              X
             </button>
             <h1>{title}</h1>
             <h5>{originTitle}</h5>

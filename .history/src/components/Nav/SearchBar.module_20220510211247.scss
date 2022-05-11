@@ -1,7 +1,9 @@
 
 .searchBar {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100vw;
     height: 50px;
     display: flex;
     align-items: center;
