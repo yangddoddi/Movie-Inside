@@ -2,7 +2,7 @@
 
 gif ⬇️
 
-<img src='https://user-images.githubusercontent.com/97802103/167904692-dbd6be78-80fd-475b-8061-0ba3cf57d5dc.gif' width="800" height="600">
+<img src='https://user-images.githubusercontent.com/97802103/167904692-dbd6be78-80fd-475b-8061-0ba3cf57d5dc.gif' width="500" height="300">
 
 
 
